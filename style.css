@@ -9,5 +9,9 @@
 
 body{
     background-color: var(--bg-color);
-    
+    /*Corde fundo*/
+    color: var(--primary-color);
+    /*Estilo de fonte*/
+    font-family: var(--font);
+    /*Faz com 
 }
