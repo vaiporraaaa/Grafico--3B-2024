@@ -61,15 +61,12 @@ nav a {
 }
 
 /*efeito adicionado quando o ouise paar sbre o links dentro da tag nav*/
-/* código omitido */
-
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
 
-/* código omitido */
 
 footer {
     display: flex;
