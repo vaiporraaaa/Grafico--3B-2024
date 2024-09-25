@@ -40,7 +40,22 @@ h1 {
     font-weight: 700;
 }
 
-nav a {
-    
+nav {
+      /*disposição do elementos*/
+      display: flex;
+      /*alinhar os elemento ao centro*/
+      justify-content: center;
+      /*Peo da fonte*/
+      font-weight: 400;
+}
 
+nav a {
+    /*decoração da fonte*/
+    text-decoration: none;
+    /*cor da fonte*/
+    color: var(--bg-color);
+    /*margem: equerda cima direito baixo*/
+    margin: 0 2rem 1rem 0;
+    /**/
+    font-size: 1.2rem;
 }
