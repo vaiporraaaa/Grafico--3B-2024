@@ -18,4 +18,29 @@ body{
    /*faz com que o elemento ocupe 100% da altura da janela do navegador. */
    height: 100vh;
    margin: 0;
+
+
+}
+
+header{
+    /*cor de fundo*/
+    background-color: var(--primary-color);
+    /*alinha o texto ao centro*/
+    text-align: center;
+    /*spaçamento interno*/
+    padding: 1px;
+}
+
+h1 {
+    /*tamanho da fonte*/
+    font-size: 2rem;
+    /*cor de fonte*/
+    color: var(--bg-color);
+    /*peso da fonte*/
+    font-weight: 700;
+}
+
+nav a {
+    
+
 }
