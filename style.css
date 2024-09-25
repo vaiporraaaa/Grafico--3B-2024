@@ -5,14 +5,17 @@
     --secondary-color: #134b70;
     --font: "Nunito sans", sans-serif;
 
-    
+
 }
 
 body{
-    background-color: var(--bg-color);
-    /*Corde fundo*/
-    color: var(--primary-color);
-    /*Estilo de fonte*/
-    font-family: var(--font);
-    /*Faz com 
+   /*cor de fundo*/
+   background-color: var(--bg-color);
+   /*cor da fonte*/
+   color: var(--primary-color);
+   /*estilo de fonte*/
+   font-family: var(--font);
+   /*faz com que o elemento ocupe 100% da altura da janela do navegador. */
+   height: 100vh;
+   margin: 0;
 }
