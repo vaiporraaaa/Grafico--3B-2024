@@ -62,9 +62,13 @@ nav a {
 
 /*efeito adicionado quando o ouise paar sbre o links dentro da tag nav*/
 nav a:hover {
+    /*adiciona um underline*/
     text-decoration: underline;
+    /*diminui o tamanho da fonte*/
     transform: scale(0.90);
+    /*adiciona um tmpo na tranição do tamanho da fonte*/
     transition: transform 0.1s;
+
 }
 
 
