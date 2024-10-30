@@ -1,28 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/*paletas de cores: https://colorhunt.co/*/
+
 :root {
-    --bg-color: #201e43;
-    --primary-colo: #eeeeee;
-    --secondary-color: #134b70;
-    --font: "Nunito sans", sans-serif;
-
-
+    --bg-color: #201E43;
+    --primary-color: #EEEEEE;
+    --secondary-color: #134B70;
+    --font: "Nunito Sans", sans-serif;
 }
 
-body{
-   /*cor de fundo*/
-   background-color: var(--bg-color);
-   /*cor da fonte*/
-   color: var(--primary-color);
-   /*estilo de fonte*/
-   font-family: var(--font);
-   /*faz com que o elemento ocupe 100% da altura da janela do navegador. */
-   height: 100vh;
-   margin: 0;
-
-
+body {
+    /*cor de fundo*/
+    background-color: var(--bg-color);
+    /*cor da fonte*/
+    color: var(--primary-color);
+    /*estilo de fonte*/
+    font-family: var(--font);
+    /*faz com que o elemento ocupe 100% da altura da janela do navegador. */
+    height: 100vh;
+    margin: 0;
 }
 
-header{
+header {
     /*cor de fundo*/
     background-color: var(--primary-color);
     /*alinha o texto ao centro*/
@@ -30,25 +28,22 @@ header{
     /*spaçamento interno*/
     padding: 1px;
 }
-
 h1 {
     /*tamanho da fonte*/
     font-size: 2rem;
-    /*cor de fonte*/
+    /*cor da fonte*/
     color: var(--bg-color);
     /*peso da fonte*/
     font-weight: 700;
 }
-
 nav {
-      /*disposição do elementos*/
-      display: flex;
-      /*alinhar os elemento ao centro*/
-      justify-content: center;
-      /*Peo da fonte*/
-      font-weight: 400;
+    /*disposição do elementos*/
+    display: flex;
+    /*alinhar os elemento ao centro*/
+    justify-content: center;
+    /*Peo da fonte*/
+    font-weight: 400;
 }
-
 nav a {
     /*decoração da fonte*/
     text-decoration: none;
@@ -59,7 +54,6 @@ nav a {
     /**/
     font-size: 1.2rem;
 }
-
 /*efeito adicionado quando o ouise paar sbre o links dentro da tag nav*/
 nav a:hover {
     /*adiciona um underline*/
@@ -68,27 +62,26 @@ nav a:hover {
     transform: scale(0.90);
     /*adiciona um tmpo na tranição do tamanho da fonte*/
     transition: transform 0.1s;
-
 }
-
-
 .graficos-container {
     /**/
     margin: 5rem;
-
 }
-
+.graficos{
+    margin-top: 3rem;
+    
+}
 .graficos-container__texto {
-    /**/
+    /*tamanhoda fonte*/
     font-size: 1.3rem;
 
-    /**/
+    /*alinhamento do texrt*/
     text-align: center;
 
-    /**/
+    /*espaçamento interno*/
     padding: 2rem;
 
-    /**/
+    /*borda cor solida de 2px*/
     border: var(--secondary-color) solid 2px;
 
 }
@@ -100,3 +93,24 @@ span {
     color: var(--secondary-color);
     /**/
 }
+
+footer {
+    /**/
+    display: flex;
+    /**/
+    align-items: center;
+    /**/
+    justify-content: center;
+    /**/
+    background-color: var(--primary-color);
+    /**/
+    color: var(--bg-color);
+    /**/
+    width: 100%;
+    /**/
+    height: 3rem;
+    /**/
+    margin-top: 2rem;
+}
+
+/*Tempo 6:30*/
